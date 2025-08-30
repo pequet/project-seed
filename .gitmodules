@@ -1,0 +1,3 @@
+[submodule "Views/Public Repositories/Public Repository Templates/cursor-project-boilerplate"]
+	path = Views/Public Repositories/Public Repository Templates/cursor-project-boilerplate
+	url = https://github.com/pequet/cursor-project-boilerplate.git
