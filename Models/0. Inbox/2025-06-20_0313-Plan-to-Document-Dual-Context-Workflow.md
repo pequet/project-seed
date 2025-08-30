@@ -15,7 +15,7 @@ Create a new document to explain the *procedural* "why" behind the boilerplate's
 
 ## 2. Rationale
 
-The current `000-TRI-Framework-Context.md` explains the architectural context (looking "out"). This new document will explain the development *workflow* and its ergonomic benefits (looking "in" and switching). This is a crucial piece of documentation for any developer using the framework effectively.
+The current `000-Framework-Context.md` explains the architectural context (looking "out"). This new document will explain the development *workflow* and its ergonomic benefits (looking "in" and switching). This is a crucial piece of documentation for any developer using the framework effectively.
 
 ## 3. Core Concepts to Document
 
@@ -33,4 +33,4 @@ The current `000-TRI-Framework-Context.md` explains the architectural context (l
 
 1.  Create a new document: `Projects/Seed/project-seed/Views/Public Repositories/seed-project-repo-name/docs/010-Development-Workflow.md`.
 2.  Write the content for this new document, detailing the concepts and benefits listed above.
-3.  Add a link to this new workflow document from the main `README.md` and/or the `000-TRI-Framework-Context.md` to ensure it's discoverable. 
+3.  Add a link to this new workflow document from the main `README.md` and/or the `000-Framework-Context.md` to ensure it's discoverable. 

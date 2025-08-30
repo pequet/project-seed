@@ -19,7 +19,7 @@ When you create a new project by copying the `Seed` directory:
 3.  Initialize the renamed folder as a public Git repository.
 4.  Use symlinks to connect the public repo to any necessary assets in the `private` folder. 
 
-## Framework Context for the TRI Developer
+## Framework Context for the Developer
 
 > [!NOTE]
 > The following section explains how this directory fits within the larger framework. This context is crucial for development within the framework but can be disregarded by external users viewing a standalone public repository.
@@ -32,7 +32,7 @@ This `Public Repositories` directory does not exist in a vacuum. It is a `View` 
 -   **/Views/**: Contains the presentational components, including this `Public Repositories` directory.
 -   **/Controllers/**: Contains the logic and methods for the project.
 
-When you work on a project created from this seed, you are expected to use the full TRI methodology. Ideas go into the `Inbox`, and files are moved to `Archives` instead of being deleted. This structure provides the necessary context and tooling for robust, long-term development within the TRI ecosystem.
+When you work on a project created from this seed, you are expected to use the full methodology. Ideas go into the `Inbox`, and files are moved to `Archives` instead of being deleted. This structure provides the necessary context and tooling for robust, long-term development within the ecosystem.
 
 ## Support the Project
 

@@ -1,0 +1,99 @@
+# macOS
+.DS_Store
+Thumbs.db
+.AppleDouble
+.LSOverride
+
+# Thumbnails
+._*
+
+# Files that might appear in the root of a volume
+.Spotlight-V100
+.Trashes
+
+# Node.js
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+package-lock.json
+yarn.lock
+
+# Environments
+.env*
+.venv
+env/
+venv/
+ENV/
+VENV/
+
+# IDE specific (including symlinks)
+# The `master-rules` directory should be commented out i.e. included in the boilerplate but **usually not** in the project
+# All the others should be ignored.
+# master-rules
+# master-rules/
+AGENTS.md
+ARCHITECTURE.md
+RULES.md
+CLAUDE.md
+codex.md
+GEMINI.md
+.claude
+.codex
+.cursor
+.gemini
+.github
+.vscode
+.codex/
+.claude/
+.cursor/
+.gemini/
+.github/
+.vscode/
+
+# Build artifacts
+dist/
+build/
+*.o
+*.a
+*.so
+
+# Log files
+*.log
+logs/
+
+# Temporary files
+*.tmp
+*~
+*.swp
+*.swo
+
+# Exclude inbox and archive directories (including symlinks)
+# Should be commented out i.e. included in the boilerplate but **usually not** in the project
+# **/inbox
+# **/inbox/
+# **/0. Inbox
+# **/0. Inbox/
+# **/archive
+# **/archive/
+# **/archives
+# **/archives/
+# **/archived
+**/4. Archives
+**/4. Archives/
+# **/archived/
+# **/trash
+# **/trash/
+
+# repomix temp files
+.repomix*
+
+# Development context (including symlinks)
+.specstory
+.specstory/
+vibe-tools.*
+
+# Memory Bank (including symlink)
+# Should be commented out i.e. included in the boilerplate but **usually not** in the project
+# memory-bank
+# memory-bank/
