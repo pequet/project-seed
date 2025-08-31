@@ -70,20 +70,10 @@ logs/
 
 # Exclude inbox and archive directories (including symlinks)
 # Should be commented out i.e. included in the boilerplate but **usually not** in the project
-# **/inbox
-# **/inbox/
 # **/0. Inbox
 # **/0. Inbox/
-# **/archive
-# **/archive/
-# **/archives
-# **/archives/
-# **/archived
 **/4. Archives
 **/4. Archives/
-# **/archived/
-# **/trash
-# **/trash/
 
 # repomix temp files
 .repomix*
@@ -95,5 +85,6 @@ vibe-tools.*
 
 # Memory Bank (including symlink)
 # Should be commented out i.e. included in the boilerplate but **usually not** in the project
-# memory-bank
-# memory-bank/
+# memory-bank  
+# memory-bank/  
+

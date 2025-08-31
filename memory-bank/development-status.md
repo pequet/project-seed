@@ -1,14 +1,14 @@
 ---
 type: overview
 domain: system-state
-subject: 'Project Seed: AI--Assisted Public Development Boilerplate'
+subject: 'Seed Project: AI--Assisted Public Development Boilerplate'
 status: active
 summary: Overall project status, what works, what's left to do, and current issues.
 ---
 # Development Status
 
 ## Overall Status
-The project is in the **initialization phase**. The core structure is in place, and the primary task is to populate the `memory-bank` with the specific context of the "Project Seed" boilerplate. The goal is to prepare the repository for its role as a public template for AI-assisted development.
+The project is in the **initialization phase**. The core structure is in place, and the primary task is to populate the `memory-bank` with the specific context of the "Seed Project" boilerplate. The goal is to prepare the repository for its role as a public template for AI-assisted development.
 
 ## What Works
 *   **Repository Structure:** The complete, MVC-style directory structure is in place and version controlled.

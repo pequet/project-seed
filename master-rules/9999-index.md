@@ -37,6 +37,9 @@ This index provides a comprehensive overview of the boilerplate rule set, organi
 
 ### 2100 Sub-series: Content & Data Standards
 - `2100-frontmatter-standards.md`: Enforce strict frontmatter schema.
+- `2101-knowledge-frontmatter.md`: Enforce frontmatter standards for the '2. Knowledge' directory.
+- `2102-methods-frontmatter.md`: Enforce frontmatter standards for 'Methods' directories.
+- `2103-inbox-frontmatter.md`: Enforce frontmatter standards for 'Inbox' directories.
 - `2110-dataviewjs-standards.md`: Enforce DataviewJS query patterns.
 - `2120-markdown-standards.md`: Enforce Markdown and path linking standards.
 - `2130-codeblock-formatting.md`: Enforce standards for copy-pastable code blocks.

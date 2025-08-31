@@ -1,7 +1,7 @@
 ---
 type: overview
 domain: system-state
-subject: Project Seed
+subject: Seed Project
 status: active
 summary: Tracks overarching project milestones, active quests, and serves as a motivational anchor for the project.
 ---

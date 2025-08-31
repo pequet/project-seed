@@ -11,7 +11,7 @@ This document provides a definitive analysis of how the framework's rule tiers a
 
 ## 2. Rule Tier Application at the Project Level
 
-The `Rules Distribution Matrix` specifies a tier requirement of **"U + S (progressive adoption)"** for the Project Archetype. This means the `Project Seed` must contain the full set of both tiers, which serves as a comprehensive starting point for any new project.
+The `Rules Distribution Matrix` specifies a tier requirement of **"U + S (progressive adoption)"** for the Project Archetype. This means the `Seed Project` must contain the full set of both tiers, which serves as a comprehensive starting point for any new project.
 
 The evaluation of the current rules is as follows:
 
@@ -19,10 +19,10 @@ The evaluation of the current rules is as follows:
 | :--- | :--- | :--- | :--- |
 | **0000-9000s** | **U** | The Universal series (0000, 1000s, 9000s) provides the non-negotiable baseline for safety, behavior, and integrity. These are **mandatory** for any project to ensure it operates safely within the framework. | **Correctly Placed** |
 | **2000 Series** | **S** | The Standards series provides a complete library of best practices for architecture, content, workflows, and scripting. Their inclusion in the seed is correct, allowing a newly spawned project to **adopt the standards relevant to its specific domain** (e.g., a data science project might use PineScript rules, while a web app would not) and discard the rest. | **Correctly Placed** |
-| **9999 Index** | **S** | The index is required at any level distributing Tier S rules. Its presence is mandatory for the Project Seed. | **Correctly Placed** |
+| **9999 Index** | **S** | The index is required at any level distributing Tier S rules. Its presence is mandatory for the Seed Project. | **Correctly Placed** |
 
 ### Conclusion
-The Project Seed correctly contains the complete set of Universal and Standard rules. This provides maximum safety and a complete library of optional standards, fulfilling the "progressive adoption" strategy.
+The Seed Project correctly contains the complete set of Universal and Standard rules. This provides maximum safety and a complete library of optional standards, fulfilling the "progressive adoption" strategy.
 
 ## 3. Policy for Level-Specific Rule Extension (Tier C)
 

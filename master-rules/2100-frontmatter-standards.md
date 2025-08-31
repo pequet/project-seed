@@ -5,67 +5,17 @@ alwaysApply: true
 ---
 # Frontmatter Standards
 
-## Prohibited Fields
+This file defines the complete frontmatter schema. All fields and values MUST conform to this specification.
 
-- NO `title` (use the filename as title)
-- NO `category` (use `domain` and `type` instead)
-- NO Custom fields not in the standard schema
+| Field | Purpose & Allowed Values | Example |
+| :--- | :--- | :--- |
+| `type` | **(CHOOSE ONE)** Defines the note's function. Must not match `domain`. `overview`: Standard content note. `hub`: Navigation page. `guide`: How-to instructions. `procedure`: Formal step-by-step process. `log`: Chronological record. | `type: overview` |
+| `domain` | **(CHOOSE ONE)** Defines the note's knowledge area. Must not match `type`. `concepts`: Foundational ideas. `patterns`: Recurring solutions. `methods`: Processes and workflows. `system-state`: System documentation. | `domain: concepts` |
+| `status` | **(CHOOSE ONE)** The current state of the document. `draft`: Initial creation. `active`: In progress. `finalized`: Complete. | `status: draft` |
+| `subject` | The broad context of the note. `General`: For Core/system-level notes. `[Project Name]`: For notes within a specific project. `[Lens Name]`: For notes within an analytical lens. | `subject: General` |
+| `summary` | A brief, one-sentence description of the note's content. | `summary: "A concise explanation of [topic]."` |
+| `tags` | **(CRITICAL)** For note status ONLY. No other tags allowed. `notes-active`: (Default) Being worked on. `notes-references`: Verbatim source. `notes-research`: Needs investigation. | `tags: notes-active` |
+| `domain-category`| **(Optional)** For filter/group pages that collect other notes. | `domain-category: project-idea` |
+| `source` | **(Optional)** The external origin of the content, if any. | `source: "https://example.com"` |
 
-## Standard `type:` (Choose ONE - NEVER match domain)
-
-- **`overview`** (90% of files): Standard content notes
-- **`hub`** (5% of files): Navigation pages that link to related content
-- **`guide`**: Instructions and best practices
-- **`procedure`**: Step-by-step instructions
-- **`framework`**: High-level strategic documents
-- **`principles`**: Fundamental rules
-- **`application`**: Practical implementations
-- **`examples`**: Practical instances
-- **`analysis`**: Deep examinations
-- **`log`**: Chronological records
-
-## Standard `domain:` (Choose ONE - NEVER match type)
-
-- **`concepts`**: Fundamental knowledge elements (default in Models/2. Knowledge)
-- **`patterns`**: Core patterns identified through analysis (second default in Models/2. Knowledge)
-- **`methods`**: Procedures and processes (default in Controllers/Methods)
-- **`analytical-lenses`**: Analytical perspectives
-- **`assets`**: Supporting resources
-- **`quotes`**: Direct quotations
-- **`system-state`**: Documentation about system state
-
-> [!IMPORTANT]
-> **File Organization and the `domain` Field (Dual Knowledge Organization)**:
-> The framework employs a "Dual Knowledge Organization" (see Framework Terminology):
-> 1.  **Structural Organization**: Files, including those with `domain: concepts` or `domain: patterns`, can and should be placed within topical or domain-specific subfolders in directories like `Models/2. Knowledge/` (e.g., `Models/2. Knowledge/Technical Analysis/`). This provides semantic grouping.
-> 2.  **Functional Organization**: The `domain` field itself (and other metadata like `domain-category`) provides classification by the nature or role of the content.
->
-> **Guideline**: While topical subfolders are essential for structural organization, AVOID creating subfolders *named identically* to `domain` field values (e.g., `Models/2. Knowledge/Concepts/` or `Projects/MyProject/Models/2. Knowledge/Patterns/`) if the `domain` frontmatter field is the primary or sole differentiator for the files intended for that folder. In such cases, the `domain` field in frontmatter fulfills this classification role, and the folder would be redundant. Rely on the `domain` field for this level of differentiation and use search/Dataview for aggregation.
-
-## `status:` Values (Choose ONE)
-
-- **`draft`**: Initial creation
-- **`active`**: Currently being worked on
-- **`in-progress`**: Ongoing development
-- **`reviewed`**: Checked but not finalized
-- **`finalized`**: Completed
-
-## `tags:` Values (ONLY NOTE STATUS - NEVER SEMANTIC)
-
-**ABSOLUTE RESTRICTION FOR `tags` FIELD:**
-- The `tags` field is EXCLUSIVELY for note status.
-- ONLY THE FOLLOWING THREE VALUES ARE EVER PERMITTED in the `tags` field:
-    - **`notes-active`**: Currently being worked on (USE THIS 99% OF THE TIME)
-    - **`notes-references`**: Verbatim sources
-    - **`notes-research`**: Needs investigation
-- **!!!ABSOLUTELY NO OTHER TAGS ARE ALLOWED!!!**
-- **THIS MEANS NO**: methodology, content-processing, exercise, documentation, concepts, journal, implementation, code, analysis, project, task, or ANY OTHER descriptive/categorical tag.
-- **UNDER NO CIRCUMSTANCES** use the `tags` field for content-based or thematic categorization. The `tags` field is STRICTLY for note status ONLY.
-- If in doubt, use ONLY `notes-active`.
-
-> **CRITICAL FORMATTING RULE**: If only one allowed tag applies, format as `tags: value`. If multiple allowed tags apply, use YAML list format with hyphens. THIS FORMAT IS MANDATORY AND MUST BE FOLLOWED WITH NO EXCEPTIONS.
-
-## Special Fields (Use ONLY when appropriate)
-
-- **`domain-category`**: ONLY for filter/group pages that collect or organize other notes
-- **`source`**: ONLY when content comes from an external source
+**Prohibited Fields:** `title`, `category`. Use the filename for the title.

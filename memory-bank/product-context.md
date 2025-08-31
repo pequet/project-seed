@@ -1,7 +1,7 @@
 ---
 type: overview
 domain: system-state
-subject: Project Seed
+subject: Seed Project
 status: active
 summary: The problem, proposed solution, and user experience goals.
 ---

@@ -1,14 +1,14 @@
 ---
 type: overview
 domain: system-state
-subject: Project Seed
+subject: Seed Project
 status: active
 summary: Current work focus, recent changes, and next steps.
 ---
 # Active Context
 
 ## Current Focus
-The current focus is the **initialization and contextualization of the project boilerplate**. The primary task is to systematically populate all files within the `memory-bank/` directory, moving them from their generic template state to a state that accurately reflects the purpose and structure of this "Project Seed" repository.
+The current focus is the **initialization and contextualization of the project boilerplate**. The primary task is to systematically populate all files within the `memory-bank/` directory, moving them from their generic template state to a state that accurately reflects the purpose and structure of this "Seed Project" repository.
 
 ## Recent Changes
 *   The project was recently restructured into its own `project-seed` directory to prepare for public release.

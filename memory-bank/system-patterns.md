@@ -1,7 +1,7 @@
 ---
 type: overview
 domain: system-state
-subject: Project Seed
+subject: Seed Project
 status: active
 summary: High-level architecture, key design decisions, and system-wide patterns.
 ---

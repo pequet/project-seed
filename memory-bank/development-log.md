@@ -1,7 +1,7 @@
 ---
 type: log
 domain: system-state
-subject: Project Seed
+subject: Seed Project
 status: active
 summary: Chronological log of development activities. New entries must be at the top.
 ---
@@ -40,7 +40,7 @@ Maintain this as a running history of the project. Add entries for any significa
     *   Replaced all boilerplate example content with information derived from the project's overarching framework (`README.md`, `ARCHITECTURE.md`) and the user's request.
     *   Files updated include: `project-brief.md`, `product-context.md`, `tech-context.md`, `system-patterns.md`, `project-journey.md`, `active-context.md`, and `development-status.md`.
 *   **Outcome:**
-    *   The project's `memory-bank` is now fully contextualized and accurately reflects the state, goals, and architecture of the "Project Seed" boilerplate.
+    *   The project's `memory-bank` is now fully contextualized and accurately reflects the state, goals, and architecture of the "Seed Project" boilerplate.
     *   The project is now in a state where AI assistants can be onboarded with a high degree of context.
 *   **Relevant Files/Links:**
     *   `memory-bank/`
