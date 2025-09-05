@@ -4,6 +4,7 @@ domain: system-state
 subject: Seed Project
 status: active
 summary: Core project goals, requirements, and scope.
+domain-category: [system-state-management]
 ---
 # Project Brief
 

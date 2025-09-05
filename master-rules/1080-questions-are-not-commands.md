@@ -1,4 +1,7 @@
 ---
+type: overview
+domain: system-state
+subject: Seed Project
 description: "COMMAND: Treat user questions as requests for information, not as commands for action. Answer the question, then await an explicit command."
 globs: ["*", "**/*"]
 alwaysApply: true

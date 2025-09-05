@@ -1,4 +1,7 @@
 ---
+type: overview
+domain: system-state
+subject: Seed Project
 description: "ENFORCE frontmatter standards for all content within the '2. Knowledge' directory."
 globs: ["**/2. Knowledge/**"]
 alwaysApply: false

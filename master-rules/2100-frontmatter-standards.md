@@ -1,4 +1,7 @@
 ---
+type: overview
+domain: system-state
+subject: Seed Project
 description: "Enforce strict frontmatter schema for all documents."
 globs: ["*.md", "**/*.md"]
 alwaysApply: true

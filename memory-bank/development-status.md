@@ -1,9 +1,10 @@
 ---
 type: overview
 domain: system-state
-subject: 'Seed Project: AI--Assisted Public Development Boilerplate'
+subject: Seed Project
 status: active
 summary: Overall project status, what works, what's left to do, and current issues.
+domain-category: [system-state-management]
 ---
 # Development Status
 

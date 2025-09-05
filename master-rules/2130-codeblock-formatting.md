@@ -1,4 +1,7 @@
 ---
+type: overview
+domain: system-state
+subject: Seed Project
 description: "COMMAND: Ensure copy-pastable code blocks have no leading indentation and are surrounded by blank lines for readability."
 globs: ["*.md", "**/*.md"]
 alwaysApply: false

@@ -1,4 +1,7 @@
 ---
+type: overview
+domain: system-state
+subject: Seed Project
 description: "ENFORCE the correct format and procedure for updating Development Log files, ensuring reverse chronological order and comprehensive entries."
 globs: ["**/development-log.md"]
 alwaysApply: false

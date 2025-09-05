@@ -1,4 +1,7 @@
 ---
+type: overview
+domain: system-state
+subject: Seed Project
 description: "ENFORCE strict Markdown and path linking standards, including checkbox styles, ATX headings, and absolute, extensionless wiki-links."
 globs: ["*.md", "**/*.md"]
 alwaysApply: false

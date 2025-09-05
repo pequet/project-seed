@@ -1,4 +1,7 @@
 ---
+type: overview
+domain: system-state
+subject: Seed Project
 description: "COMMAND: Enforce standards for script formatting, attribution, terminal output, and section headers in all shell scripts."
 globs: ["*.sh", "**/*.sh"]
 alwaysApply: false

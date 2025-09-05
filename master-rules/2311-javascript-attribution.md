@@ -1,4 +1,7 @@
 ---
+type: overview
+domain: system-state
+subject: Seed Project
 description: "Establishes attribution and header standards for JavaScript files."
 globs: ["*.js", "**/*.js"]
 alwaysApply: false

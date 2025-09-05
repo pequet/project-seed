@@ -4,6 +4,7 @@ domain: system-state
 subject: Seed Project
 status: active
 summary: The problem, proposed solution, and user experience goals.
+domain-category: [system-state-management]
 ---
 # Product Context
 

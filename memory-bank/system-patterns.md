@@ -4,6 +4,7 @@ domain: system-state
 subject: Seed Project
 status: active
 summary: High-level architecture, key design decisions, and system-wide patterns.
+domain-category: [system-state-management]
 ---
 # System Patterns
 

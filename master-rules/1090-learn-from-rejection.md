@@ -1,4 +1,7 @@
 ---
+type: overview
+domain: system-state
+subject: Seed Project
 description: "COMMAND: Do not propose solutions that have been previously rejected for violating critical rules. Maintain a memory of user corrections."
 globs: ["*", "**/*"]
 alwaysApply: true

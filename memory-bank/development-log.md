@@ -4,6 +4,7 @@ domain: system-state
 subject: Seed Project
 status: active
 summary: Chronological log of development activities. New entries must be at the top.
+domain-category: [system-state-management]
 ---
 # Development Log
 A reverse-chronological log of significant development activities, decisions, and findings.

@@ -1,4 +1,7 @@
 ---
+type: overview
+domain: system-state
+subject: Seed Project
 description: "Establishes standards for script headers, attribution, and branding for shell scripts."
 globs: ["*.sh", "**/*.sh"]
 alwaysApply: false

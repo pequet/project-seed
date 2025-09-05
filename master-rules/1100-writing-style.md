@@ -1,4 +1,7 @@
 ---
+type: overview
+domain: system-state
+subject: Seed Project
 description: "Communication standards for direct, factual writing with examples"
 globs: ["*", "**/*"]
 alwaysApply: true

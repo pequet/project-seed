@@ -1,4 +1,7 @@
 ---
+type: overview
+domain: system-state
+subject: Seed Project
 description: "COMMAND: Enforce JavaScript formatting standards, including consistent indentation, naming conventions, and module usage."
 globs: ["*.js", "**/*.js"]
 alwaysApply: false

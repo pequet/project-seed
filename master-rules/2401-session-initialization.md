@@ -1,4 +1,7 @@
 ---
+type: overview
+domain: system-state
+subject: Seed Project
 description: "COMMAND: On session start, immediately identify context and prompt user to review the relevant Development Status file."
 globs: ["*", "**/*"]
 alwaysApply: true

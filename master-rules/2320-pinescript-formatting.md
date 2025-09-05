@@ -1,4 +1,7 @@
 ---
+type: overview
+domain: system-state
+subject: Seed Project
 description: "COMMAND: Enforce Pine Script v5 formatting standards, including camelCase naming, script organization, and explicit typing."
 globs: ["*.pine", "**/*.pine"]
 alwaysApply: false

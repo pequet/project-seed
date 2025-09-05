@@ -1,4 +1,7 @@
 ---
+type: overview
+domain: system-state
+subject: Seed Project
 description: "Defines the application of rule tiers (Universal, Standards, Context-Specific) at the Project level and outlines the policy for adding project-specific rules."
 globs: ["master-rules/*.md", "**/master-rules/*"]
 alwaysApply: false

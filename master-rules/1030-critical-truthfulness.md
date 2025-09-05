@@ -1,4 +1,7 @@
 ---
+type: overview
+domain: system-state
+subject: Seed Project
 description: "COMMAND: NEVER fabricate, falsify, or invent information. Report all outputs truthfully and admit ignorance when necessary."
 globs: ["*", "**/*"]
 alwaysApply: true

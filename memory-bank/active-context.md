@@ -4,6 +4,7 @@ domain: system-state
 subject: Seed Project
 status: active
 summary: Current work focus, recent changes, and next steps.
+domain-category: [system-state-management]
 ---
 # Active Context
 

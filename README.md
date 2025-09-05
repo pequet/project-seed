@@ -52,7 +52,7 @@ Example usage:
 
 ## Recommended Patterns
 
-While this seed is open-ended, it is designed to easily evolve towards the patterns used in the `project-sample`. Consider the following recommendations:
+While this seed is open-ended, it is designed to easily evolve towards the patterns used in the `project-seed`. Consider the following recommendations:
 
 - **Authoring:** Use `domain: concepts` for primary knowledge items and `domain-category` in hub/group files to define their role. Add group affiliations with `group-[type]: value`.
 - **Rendering:** For dynamic views, the framework assumes an environment like Obsidian with the Dataview plugin and a customJS environment providing a `ConceptManager` API or similar. See `Config.md` for examples.
@@ -63,7 +63,7 @@ This seed project is designed to work with the Concept Manager ecosystem:
 
 - **[Subject Index Cache](https://github.com/pequet/obsidian-subject-index-cache)** - Lightning-fast caching layer
 - **[Concept Manager](https://github.com/pequet/obsidian-concept-manager)** - Core relationship discovery engine  
-- **[Project Sample](https://github.com/pequet/project-sample)** - A full, working example built on this methodology.
+- **[Project Seed](https://github.com/pequet/project-seed)** - A full, working example built on this methodology.
 
 ### License
 

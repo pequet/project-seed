@@ -1,4 +1,7 @@
 ---
+type: overview
+domain: system-state
+subject: Seed Project
 description: "Defines Memory Bank structure and usage for maintaining project context"
 globs: ["memory-bank/*.md", "**/memory-bank/*.md"]
 alwaysApply: false

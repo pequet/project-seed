@@ -1,4 +1,7 @@
 ---
+type: overview
+domain: system-state
+subject: Seed Project
 description: "Master index of all boilerplate rules, organized by function."
 globs: ["*", "**/*"]
 alwaysApply: false

@@ -32,7 +32,7 @@ Adapt the milestones below to fit your project and keep updating them as the pro
 
 **Phase 3: Refinement & Testing**
 - [ ] M11: **Create Validation Script:** Develop a test script to validate a new project's setup from the boilerplate.
-- [ ] M12: **Internal Dogfooding:** Test the boilerplate by creating a new sample "hello-world" project from it internally.
+- [ ] M12: **Internal Dogfooding:** Test the boilerplate by creating a new seed "hello-world" project from it internally.
 - [ ] M13: **Document Memory Bank:** Create detailed documentation for each file in the `memory-bank` and its purpose.
 - [ ] M14: **Refactor AI Rules:** Review and consolidate the `master-rules` for clarity, efficiency, and robustness.
 - [ ] M15: **First User Feedback Session:** Have another developer use the boilerplate for a new project and provide feedback on the process.

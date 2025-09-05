@@ -4,6 +4,7 @@ domain: system-state
 subject: Seed Project
 status: active
 summary: Technologies, setup, and technical constraints of the project.
+domain-category: [system-state-management]
 ---
 # Technical Context
 

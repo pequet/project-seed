@@ -1,4 +1,7 @@
 ---
+type: overview
+domain: system-state
+subject: Seed Project
 description: "ENFORCE correct maintenance of Development Status files, ensuring the 'Current State' and 'Next Actions' sections are always accurate."
 globs: ["**/development-status.md"]
 alwaysApply: false

@@ -1,4 +1,7 @@
 ---
+type: overview
+domain: system-state
+subject: Seed Project
 description: "ENFORCE strict standards for writing new master rules, requiring imperative commands, conciseness, and actionable content."
 globs: ["master-rules/*.md", "**/master-rules/**/*.md"]
 alwaysApply: false

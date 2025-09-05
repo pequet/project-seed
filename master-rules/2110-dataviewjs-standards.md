@@ -1,4 +1,7 @@
 ---
+type: overview
+domain: system-state
+subject: Seed Project
 description: "ENFORCE DataviewJS query standards, including metadata-based queries, path handling, and the canonical implementation pattern."
 globs: ["*", "**/*"]
 alwaysApply: true
