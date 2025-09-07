@@ -3,8 +3,7 @@ type: overview
 domain: system-state
 subject: Seed Project
 description: "COMMAND: Systematically capture any proposed plan, format it with checklists, save it to the Inbox, and await user approval before execution."
-globs: ["*", "**/*"]
-alwaysApply: true
+alwaysApply: false
 ---
 # Action Plan Protocol
 

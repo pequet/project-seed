@@ -3,8 +3,7 @@ type: overview
 domain: system-state
 subject: Seed Project
 description: "COMMAND: When a user provides a verified fact (e.g., a file path), immediately accept it as ground truth and use it in the next action without re-verification."
-globs: ["*", "**/*"]
-alwaysApply: true
+alwaysApply: false
 ---
 # Verified Fact Integration Protocol
 

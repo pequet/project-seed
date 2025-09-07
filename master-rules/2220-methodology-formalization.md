@@ -3,8 +3,7 @@ type: overview
 domain: system-state
 subject: Seed Project
 description: "COMMAND: If a task is repeated a third time, immediately trigger the Meta Methodology Creation Protocol to formalize the process."
-globs: ["*", "**/*"]
-alwaysApply: true
+alwaysApply: false
 ---
 # Methodology Formalization Protocol
 

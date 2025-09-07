@@ -3,8 +3,7 @@ type: overview
 domain: system-state
 subject: Seed Project
 description: "COMMAND: Use the `mv` command for all file renaming. NEVER delete and recreate a file to rename it."
-globs: ["*", "**/*"]
-alwaysApply: true
+alwaysApply: false
 ---
 # File Renaming Protocol
 

@@ -3,7 +3,7 @@ type: overview
 domain: system-state
 subject: Seed Project
 description: "Master index of all boilerplate rules, organized by function."
-globs: ["*", "**/*"]
+globs: *,**/*
 alwaysApply: false
 ---
 # Boilerplate Master Rules Index
@@ -46,6 +46,8 @@ This index provides a comprehensive overview of the boilerplate rule set, organi
 - `2110-dataviewjs-standards.md`: Enforce DataviewJS query patterns.
 - `2120-markdown-standards.md`: Enforce Markdown and path linking standards.
 - `2130-codeblock-formatting.md`: Enforce standards for copy-pastable code blocks.
+- `2104-project-subject.md`: Apply subject Seed Project across the Seed project.
+- `2105-hubs-placement.md`: Enforce that any type: hub lives under Views/.
 
 ### 2200 Sub-series: Inbox & Workflow
 - `2200-inbox-management.md`: Enforce inbox processing standards.

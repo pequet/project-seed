@@ -3,8 +3,7 @@ type: overview
 domain: system-state
 subject: Seed Project
 description: "CRITICAL COMMAND: NEVER delete files. ALWAYS move unnecessary files to the 'Archives' directory to preserve history."
-globs: ["*", "**/*"]
-alwaysApply: true
+alwaysApply: false
 ---
 # CRITICAL File & Content Preservation Protocol
 

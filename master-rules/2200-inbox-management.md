@@ -3,7 +3,7 @@ type: overview
 domain: system-state
 subject: Seed Project
 description: "ENFORCE strict inbox management standards for content capture and processing, including naming, frontmatter, and workflow."
-globs: ["**/0. Inbox/**", "**/inbox/**"]
+globs: **/*Inbox/*.md,**/inbox/*.md
 alwaysApply: false
 ---
 # Inbox Management Directives

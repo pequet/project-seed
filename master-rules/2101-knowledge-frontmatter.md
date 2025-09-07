@@ -3,45 +3,20 @@ type: overview
 domain: system-state
 subject: Seed Project
 description: "ENFORCE frontmatter standards for all content within the '2. Knowledge' directory."
-globs: ["**/2. Knowledge/**"]
+globs: **/*Knowledge/*.md,**/*Knowledge/**/*.md
 alwaysApply: false
 ---
-# Knowledge Directory Frontmatter
+# 2101: Knowledge Frontmatter
 
-All files within the `2. Knowledge` directory and its subdirectories **MUST** adhere to the following frontmatter standards to ensure consistency and proper data processing.
+This rule enforces consistent frontmatter for knowledge notes located under `Models/2. Knowledge/`.
 
-## Required Fields
-- `type`: Must be `overview` or `hub`.
-- `domain`: Must be either `concepts` or `patterns`.
-- `tags`: Must be `notes-active`.
-- `subject`: Must be the current system level entity.
+- Must
+  - `type: overview` (unless explicitly and locally justified)
+  - `domain` ∈ {`concepts`, `patterns`}
+  - `type: hub` is not permitted under `Models/2. Knowledge/`
+- Should
+  - Keep Concepts and Core Patterns co-located; distinguish only via `domain`
+  - Use the Dual Knowledge Organization principles to align structural and functional identity
 
-## Frontmatter by Example
-
-### Concept 
-Use for files that define and explain a fundamental concept.
-
-```yaml
----
-type: overview
-domain: concepts
-subject: General | [Project Name] | [Lens Name]
-status: draft
-tags: notes-active
-summary: "A concise definition and explanation of the concept."
----
-```
-
-### Core Pattern 
-Use for files that describe a recurring pattern or solution.
-
-```yaml
----
-type: overview
-domain: patterns
-subject: General | [Project Name] | [Lens Name]
-status: draft
-tags: notes-active
-summary: "A description of a recurring pattern, its context, and its application."
----
-```
+Notes:
+- Hubs belong under `Views/`, not in `Models/` or `Controllers/`.

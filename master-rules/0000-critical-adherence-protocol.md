@@ -3,8 +3,7 @@ type: overview
 domain: system-state
 subject: Seed Project
 description: "CRITICAL: Non-negotiable directives for AI agent behavior. This rule is the final authority in case of any conflict."
-globs: ["*", "**/*"]
-alwaysApply: true
+alwaysApply: false
 ---
 # 0000: Critical Adherence Protocol
 
