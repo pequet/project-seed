@@ -11,7 +11,7 @@ summary: "Explains the project's context within the parent framework."
 
 ## Framework Context
 
-This project, while a self-contained unit of work, is designed to exist as a **Project-Level Archetype** within the larger TRI framework. This document serves as a "convex mirror," looking out from the Project to show its place within the larger system, embodying the design principle: "when in doubt, zoom out."
+This project, while a self-contained unit of work, is designed to exist as a **Project-Level Archetype** within the larger TRI framework. This document embodies the **Holographic Principle**: each System Archetype contains the essential pattern of the whole framework at its appropriate scale. Here it serves as a "Convex Mirror," looking out from the Project to show its place within the larger system, embodying the design principle: "when in doubt, zoom out."
 
 ### A Progressively Unfolding Structure
 
