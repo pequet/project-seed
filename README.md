@@ -12,7 +12,7 @@ This repository is a Project-Level Archetype for creating new projects within th
 
 To start using this Seed Project:
 
-- **Dashboard**: See the [[Dashboard]] for a project overview and entry points.
+- **Dashboard**: See the [[Projects/Seed/project-seed/Dashboard]] for a project overview and entry points.
 - **Configuration**: See [[Projects/Seed/project-seed/Config]] to understand the project's subject, valid filters, and component usage.
 
 ### Requirements
