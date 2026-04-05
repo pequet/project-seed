@@ -14,4 +14,4 @@ This file defines the canonical list of approved `domain` values for use in fron
 
 | Domain          | Definition                                           | Usage Context                                          |
 | --------------- | ---------------------------------------------------- | ------------------------------------------------------ |
-| `seed-domain` | PLACEHOLDER: Seed domain specific to this project. | PLACEHOLDER: Used for Seed Project specific content. |
+| *(none)* | All domains used in this boundary are root-level values (`concepts`, `methods`, `inbox`, `system-state`). No boundary-specific domains defined. | — |

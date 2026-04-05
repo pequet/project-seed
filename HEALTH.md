@@ -3,14 +3,14 @@ type: health-report
 domain: framework
 subject: Seed Project
 status: active
-generated: 2026-04-04 21:15
+generated: 2026-04-04 23:08
 checks: structural,frontmatter,freshness,registry,kd-validation,symlinks
 overall: WARN
 ---
 
 # Health Report: Seed Project
 
-Generated: 2026-04-04 21:15
+Generated: 2026-04-04 23:08
 Path: `00-system/TRI/Projects/Seed/project-seed`
 Overall: **WARN**
 
@@ -31,16 +31,11 @@ Overall: **WARN**
 ## Issues
 
 **kd-validation (WARN):**
-- `type`: 'config' not in `00-system/TRI/Projects/Seed/project-seed/knowledge-dictionary/type-map.md` (1 files)
-  - `00-system/TRI/Projects/Seed/project-seed/Config.md`
-- `type`: 'dashboard' not in `00-system/TRI/Projects/Seed/project-seed/knowledge-dictionary/type-map.md` (1 files)
-  - `00-system/TRI/Projects/Seed/project-seed/Dashboard.md`
 - `type`: 'view' not in `00-system/TRI/Projects/Seed/project-seed/knowledge-dictionary/type-map.md` (3 files)
   - `00-system/TRI/Projects/Seed/project-seed/Views/0. Inbox/Inbox.md`
   - `00-system/TRI/Projects/Seed/project-seed/Views/2. Knowledge/Concepts.md`
   - `00-system/TRI/Projects/Seed/project-seed/Views/2. Knowledge/Dictionary.md`
-- `00-system/TRI/Projects/Seed/project-seed/knowledge-dictionary/type-map.md`: 'seed-type' defined but unused
-- `00-system/TRI/Projects/Seed/project-seed/knowledge-dictionary/domain-map.md`: 'seed-domain' defined but unused
+- `00-system/TRI/Projects/Seed/project-seed/knowledge-dictionary/domain-map.md`: '*(none)*' defined but unused
 - `domain-category`: 'inbox-management' not in `00-system/TRI/Projects/Seed/project-seed/knowledge-dictionary/functional-map.md` (1 files)
   - `00-system/TRI/Projects/Seed/project-seed/Views/0. Inbox/Inbox.md`
 - `domain-category`: 'raw-insight | project-idea | feedback | external-knowledge | method-improvement | question | anomaly' not in `00-system/TRI/Projects/Seed/project-seed/knowledge-dictionary/functional-map.md` (1 files)
@@ -52,7 +47,4 @@ Overall: **WARN**
   - `00-system/TRI/Projects/Seed/project-seed/memory-bank/product-context.md`
   - `00-system/TRI/Projects/Seed/project-seed/memory-bank/project-brief.md`
   - (and 2 more)
-- `domain-category`: 'welcome' not in `00-system/TRI/Projects/Seed/project-seed/knowledge-dictionary/functional-map.md` (1 files)
-  - `00-system/TRI/Projects/Seed/project-seed/Models/0. Inbox/welcome-message.md`
-- `00-system/TRI/Projects/Seed/project-seed/knowledge-dictionary/functional-map.md`: 'seed-domain-category' defined but unused
 
