@@ -1,7 +1,6 @@
 ---
 type: capture
 domain: inbox
-domain-category: welcome
 subject: Seed Project
 priority: 1
 status: new
