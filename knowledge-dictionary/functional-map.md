@@ -15,6 +15,5 @@ This file defines the canonical list of approved `domain-category` values for us
 
 | Category                   | Definition                                       | Usage Context                                  |
 | -------------------------- | ------------------------------------------------ | ---------------------------------------------- |
-| `welcome` | Inbox items that serve as introductory or onboarding messages for new project instances. | Used on the welcome-message capture file delivered to new Seed Project instances. |
 
 *This view is queried by DataviewJS to build validation arrays for the Functional Map.*

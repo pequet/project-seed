@@ -3,14 +3,14 @@ type: health-report
 domain: framework
 subject: Seed Project
 status: active
-generated: 2026-04-05 17:35
+generated: 2026-04-07 16:24
 checks: structural,frontmatter,freshness,registry,kd-validation,symlinks
 overall: WARN
 ---
 
 # Health Report: Seed Project
 
-Generated: 2026-04-05 17:35
+Generated: 2026-04-07 16:24
 Path: `00-system/TRI/Projects/Seed/project-seed`
 Overall: **WARN**
 
@@ -31,18 +31,8 @@ Overall: **WARN**
 ## Issues
 
 **kd-validation (WARN):**
-- `type`: 'view' not in `00-system/TRI/Projects/Seed/project-seed/knowledge-dictionary/type-map.md` (3 files)
-  - `00-system/TRI/Projects/Seed/project-seed/Views/0. Inbox/Inbox.md`
-  - `00-system/TRI/Projects/Seed/project-seed/Views/2. Knowledge/Concepts.md`
-  - `00-system/TRI/Projects/Seed/project-seed/Views/2. Knowledge/Dictionary.md`
+- `00-system/TRI/Projects/Seed/project-seed/knowledge-dictionary/type-map.md`: 'config' duplicates root — remove from boundary map
+- `00-system/TRI/Projects/Seed/project-seed/knowledge-dictionary/type-map.md`: 'dashboard' duplicates root — remove from boundary map
 - `00-system/TRI/Projects/Seed/project-seed/knowledge-dictionary/domain-map.md`: '*(none)*' defined but unused
-- `domain-category`: 'inbox-management' not in `00-system/TRI/Projects/Seed/project-seed/knowledge-dictionary/functional-map.md` (1 files)
-  - `00-system/TRI/Projects/Seed/project-seed/Views/0. Inbox/Inbox.md`
-- `domain-category`: 'system-state-management' not in `00-system/TRI/Projects/Seed/project-seed/knowledge-dictionary/functional-map.md` (7 files)
-  - `00-system/TRI/Projects/Seed/project-seed/memory-bank/active-context.md`
-  - `00-system/TRI/Projects/Seed/project-seed/memory-bank/development-log.md`
-  - `00-system/TRI/Projects/Seed/project-seed/memory-bank/development-status.md`
-  - `00-system/TRI/Projects/Seed/project-seed/memory-bank/product-context.md`
-  - `00-system/TRI/Projects/Seed/project-seed/memory-bank/project-brief.md`
-  - (and 2 more)
+- `00-system/TRI/Projects/Seed/project-seed/knowledge-dictionary/functional-map.md`: 'welcome' defined but unused
 

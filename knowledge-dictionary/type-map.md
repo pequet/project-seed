@@ -14,5 +14,3 @@ This file defines the canonical list of approved `type` values for use in frontm
 
 | Type          | Definition                                         | Usage Context                                          |
 | ------------- | -------------------------------------------------- | ------------------------------------------------------ |
-| `config`    | System configuration file defining valid subjects, filters, and component settings for the project's DataviewJS automation. | Used on the project Config.md to supply validation lists and smart view parameters. |
-| `dashboard` | Top-level navigation and orientation page providing an overview of project status, structure, and key entry points. | Used on the project Dashboard.md as the primary landing page for the boundary. |

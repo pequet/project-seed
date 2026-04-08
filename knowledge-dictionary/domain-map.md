@@ -14,4 +14,3 @@ This file defines the canonical list of approved `domain` values for use in fron
 
 | Domain          | Definition                                           | Usage Context                                          |
 | --------------- | ---------------------------------------------------- | ------------------------------------------------------ |
-| *(none)* | All domains used in this boundary are root-level values (`concepts`, `methods`, `inbox`, `system-state`). No boundary-specific domains defined. | — |
